@@ -95,7 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				B09A95792B60A2E400FFABFF /* CalGadsApp.swift */,
-				B09A957B2B60A2E400FFABFF /* ContentView.swift */,
+				B0E495DE2B630E9400A08DC7 /* View */,
+				B0E495DD2B630E2800A08DC7 /* ViewModel */,
+				B0E495DC2B630E2200A08DC7 /* Model */,
 				B09A957D2B60A2E600FFABFF /* Assets.xcassets */,
 				B09A957F2B60A2E600FFABFF /* Preview Content */,
 			);
@@ -125,6 +127,28 @@
 				B09A95962B60A2E700FFABFF /* CalGadsUITestsLaunchTests.swift */,
 			);
 			path = CalGadsUITests;
+			sourceTree = "<group>";
+		};
+		B0E495DC2B630E2200A08DC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B09A957B2B60A2E400FFABFF /* ContentView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0E495DD2B630E2800A08DC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B0E495DE2B630E9400A08DC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
