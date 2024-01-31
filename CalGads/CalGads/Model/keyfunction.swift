@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum KeyFuntion {
+enum KeyFunction {
     case primary
     case secondary
     case tertiary

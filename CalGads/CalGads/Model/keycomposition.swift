@@ -8,6 +8,6 @@
 import Foundation
 
 struct keyComposition {
-    let funtions: [KeyFuntion] = [.primary, .secondary, .tertiary, .quaternary, .none]
-    let sym: [KeySymbols] = [.zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .plus, .minus, .multiply, .divide, .equal, .squareRoot, .cubicRoot, .summation, .product]
+    let funtions: [KeyFunction]
+    let symbols: [KeySymbols] = [.zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .plus, .minus, .multiply, .divide, .equal, .squareRoot, .cubicRoot, .summation, .product]
 }
