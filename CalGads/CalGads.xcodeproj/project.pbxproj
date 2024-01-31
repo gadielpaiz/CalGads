@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00EF3582B6B00A600A65155 /* keyfuntion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF3572B6B00A600A65155 /* keyfuntion.swift */; };
+		B00EF35A2B6B00E200A65155 /* keysymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF3592B6B00E200A65155 /* keysymbols.swift */; };
+		B00EF35C2B6B012000A65155 /* keycomposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF35B2B6B012000A65155 /* keycomposition.swift */; };
 		B09A957A2B60A2E400FFABFF /* CalGadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09A95792B60A2E400FFABFF /* CalGadsApp.swift */; };
 		B09A957C2B60A2E400FFABFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09A957B2B60A2E400FFABFF /* ContentView.swift */; };
 		B09A957E2B60A2E600FFABFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09A957D2B60A2E600FFABFF /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B00EF3572B6B00A600A65155 /* keyfuntion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyfuntion.swift; sourceTree = "<group>"; };
+		B00EF3592B6B00E200A65155 /* keysymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keysymbols.swift; sourceTree = "<group>"; };
+		B00EF35B2B6B012000A65155 /* keycomposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keycomposition.swift; sourceTree = "<group>"; };
 		B09A95762B60A2E400FFABFF /* CalGads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalGads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09A95792B60A2E400FFABFF /* CalGadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalGadsApp.swift; sourceTree = "<group>"; };
 		B09A957B2B60A2E400FFABFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,7 +138,9 @@
 		B0E495DC2B630E2200A08DC7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B09A957B2B60A2E400FFABFF /* ContentView.swift */,
+				B00EF3572B6B00A600A65155 /* keyfuntion.swift */,
+				B00EF3592B6B00E200A65155 /* keysymbols.swift */,
+				B00EF35B2B6B012000A65155 /* keycomposition.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 		B0E495DE2B630E9400A08DC7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B09A957B2B60A2E400FFABFF /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,7 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B09A957C2B60A2E400FFABFF /* ContentView.swift in Sources */,
+				B00EF35A2B6B00E200A65155 /* keysymbols.swift in Sources */,
 				B09A957A2B60A2E400FFABFF /* CalGadsApp.swift in Sources */,
+				B00EF35C2B6B012000A65155 /* keycomposition.swift in Sources */,
+				B00EF3582B6B00A600A65155 /* keyfuntion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
