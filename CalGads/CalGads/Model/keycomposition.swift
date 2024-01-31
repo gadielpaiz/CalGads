@@ -6,8 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct keyComposition {
-    let funtions: [KeyFunction]
-    let symbols: [KeySymbols] = [.zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .plus, .minus, .multiply, .divide, .equal, .squareRoot, .cubicRoot, .summation, .product]
+    let functions: [KeyFunction]
+    let symbols: [KeySymbols]
+    let colors: [Color]
 }
