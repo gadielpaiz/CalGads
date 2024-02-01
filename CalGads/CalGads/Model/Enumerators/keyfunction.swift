@@ -7,10 +7,10 @@
 
 import Foundation
 
-enum KeyFunction {
-    case primary
+enum KeyFunction: Int {
+    case primary = 0
     case secondary
     case tertiary
     case quaternary
-    case none
+    case none = -1
 }

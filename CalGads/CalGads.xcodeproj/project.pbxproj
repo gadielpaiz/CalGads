@@ -10,6 +10,8 @@
 		B00EF3582B6B00A600A65155 /* keyfunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF3572B6B00A600A65155 /* keyfunction.swift */; };
 		B00EF35A2B6B00E200A65155 /* keysymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF3592B6B00E200A65155 /* keysymbols.swift */; };
 		B00EF35C2B6B012000A65155 /* keycomposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF35B2B6B012000A65155 /* keycomposition.swift */; };
+		B00EF3632B6B136900A65155 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF3622B6B136900A65155 /* KeyView.swift */; };
+		B00EF3652B6B173C00A65155 /* KeyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF3642B6B173C00A65155 /* KeyButtonStyle.swift */; };
 		B09A957A2B60A2E400FFABFF /* CalGadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09A95792B60A2E400FFABFF /* CalGadsApp.swift */; };
 		B09A957C2B60A2E400FFABFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09A957B2B60A2E400FFABFF /* ContentView.swift */; };
 		B09A957E2B60A2E600FFABFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09A957D2B60A2E600FFABFF /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 		B00EF3572B6B00A600A65155 /* keyfunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyfunction.swift; sourceTree = "<group>"; };
 		B00EF3592B6B00E200A65155 /* keysymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keysymbols.swift; sourceTree = "<group>"; };
 		B00EF35B2B6B012000A65155 /* keycomposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keycomposition.swift; sourceTree = "<group>"; };
+		B00EF3622B6B136900A65155 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
+		B00EF3642B6B173C00A65155 /* KeyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyButtonStyle.swift; sourceTree = "<group>"; };
 		B09A95762B60A2E400FFABFF /* CalGads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalGads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09A95792B60A2E400FFABFF /* CalGadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalGadsApp.swift; sourceTree = "<group>"; };
 		B09A957B2B60A2E400FFABFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +81,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B00EF35D2B6B105B00A65155 /* Enumerators */ = {
+			isa = PBXGroup;
+			children = (
+				B00EF3572B6B00A600A65155 /* keyfunction.swift */,
+				B00EF3592B6B00E200A65155 /* keysymbols.swift */,
+			);
+			path = Enumerators;
+			sourceTree = "<group>";
+		};
+		B00EF35E2B6B10CD00A65155 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				B00EF3642B6B173C00A65155 /* KeyButtonStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		B00EF35F2B6B10DC00A65155 /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				B00EF3622B6B136900A65155 /* KeyView.swift */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
 		B09A956D2B60A2E300FFABFF = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +133,8 @@
 				B0E495DE2B630E9400A08DC7 /* View */,
 				B0E495DD2B630E2800A08DC7 /* ViewModel */,
 				B0E495DC2B630E2200A08DC7 /* Model */,
+				B00EF35F2B6B10DC00A65155 /* UI Components */,
+				B00EF35E2B6B10CD00A65155 /* Style */,
 				B09A957D2B60A2E600FFABFF /* Assets.xcassets */,
 				B09A957F2B60A2E600FFABFF /* Preview Content */,
 			);
@@ -138,8 +169,7 @@
 		B0E495DC2B630E2200A08DC7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B00EF3572B6B00A600A65155 /* keyfunction.swift */,
-				B00EF3592B6B00E200A65155 /* keysymbols.swift */,
+				B00EF35D2B6B105B00A65155 /* Enumerators */,
 				B00EF35B2B6B012000A65155 /* keycomposition.swift */,
 			);
 			path = Model;
@@ -290,11 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00EF3632B6B136900A65155 /* KeyView.swift in Sources */,
 				B09A957C2B60A2E400FFABFF /* ContentView.swift in Sources */,
 				B00EF35A2B6B00E200A65155 /* keysymbols.swift in Sources */,
 				B09A957A2B60A2E400FFABFF /* CalGadsApp.swift in Sources */,
 				B00EF35C2B6B012000A65155 /* keycomposition.swift in Sources */,
 				B00EF3582B6B00A600A65155 /* keyfunction.swift in Sources */,
+				B00EF3652B6B173C00A65155 /* KeyButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
