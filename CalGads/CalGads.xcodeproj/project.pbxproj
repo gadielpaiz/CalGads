@@ -12,6 +12,11 @@
 		B00EF35C2B6B012000A65155 /* keycomposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF35B2B6B012000A65155 /* keycomposition.swift */; };
 		B00EF3632B6B136900A65155 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF3622B6B136900A65155 /* KeyView.swift */; };
 		B00EF3652B6B173C00A65155 /* KeyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF3642B6B173C00A65155 /* KeyButtonStyle.swift */; };
+		B03A31FA2B90E99900A0F849 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A31F92B90E99900A0F849 /* AnalyticsService.swift */; };
+		B03A31FC2B90ED1500A0F849 /* CrashlyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A31FB2B90ED1500A0F849 /* CrashlyticsService.swift */; };
+		B03DC6852B9666FA0028E671 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = B03DC6842B9666FA0028E671 /* FirebaseCrashlytics */; };
+		B046ABF62B8FCE100036D6B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046ABF52B8FCE100036D6B0 /* AppDelegate.swift */; };
+		B046AC022B8FEFE00036D6B0 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B046AC012B8FEFE00036D6B0 /* FirebaseAnalytics */; };
 		B09A957A2B60A2E400FFABFF /* CalGadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09A95792B60A2E400FFABFF /* CalGadsApp.swift */; };
 		B09A957C2B60A2E400FFABFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09A957B2B60A2E400FFABFF /* ContentView.swift */; };
 		B09A957E2B60A2E600FFABFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09A957D2B60A2E600FFABFF /* Assets.xcassets */; };
@@ -44,6 +49,10 @@
 		B00EF35B2B6B012000A65155 /* keycomposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keycomposition.swift; sourceTree = "<group>"; };
 		B00EF3622B6B136900A65155 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
 		B00EF3642B6B173C00A65155 /* KeyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyButtonStyle.swift; sourceTree = "<group>"; };
+		B03A31F92B90E99900A0F849 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		B03A31FB2B90ED1500A0F849 /* CrashlyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashlyticsService.swift; sourceTree = "<group>"; };
+		B046ABF52B8FCE100036D6B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B046AC072B8FFFE90036D6B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B09A95762B60A2E400FFABFF /* CalGads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalGads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09A95792B60A2E400FFABFF /* CalGadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalGadsApp.swift; sourceTree = "<group>"; };
 		B09A957B2B60A2E400FFABFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +63,7 @@
 		B09A95902B60A2E700FFABFF /* CalGadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalGadsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09A95942B60A2E700FFABFF /* CalGadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalGadsUITests.swift; sourceTree = "<group>"; };
 		B09A95962B60A2E700FFABFF /* CalGadsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalGadsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0A26D9C2B92558D006A823C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B046AC022B8FEFE00036D6B0 /* FirebaseAnalytics in Frameworks */,
+				B03DC6852B9666FA0028E671 /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +118,54 @@
 			path = "UI Components";
 			sourceTree = "<group>";
 		};
+		B03A31D72B90E2C700A0F849 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B03A31F92B90E99900A0F849 /* AnalyticsService.swift */,
+				B03A31FB2B90ED1500A0F849 /* CrashlyticsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B03A31F82B90E95500A0F849 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B03DC6832B9666FA0028E671 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B046AC092B9000150036D6B0 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				B046AC0A2B9000B90036D6B0 /* Debug */,
+				B046AC0B2B9000C90036D6B0 /* Release */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		B046AC0A2B9000B90036D6B0 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				B046AC072B8FFFE90036D6B0 /* GoogleService-Info.plist */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		B046AC0B2B9000C90036D6B0 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				B0A26D9C2B92558D006A823C /* GoogleService-Info.plist */,
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
 		B09A956D2B60A2E300FFABFF = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +173,7 @@
 				B09A95892B60A2E600FFABFF /* CalGadsTests */,
 				B09A95932B60A2E700FFABFF /* CalGadsUITests */,
 				B09A95772B60A2E400FFABFF /* Products */,
+				B03DC6832B9666FA0028E671 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,11 +191,15 @@
 			isa = PBXGroup;
 			children = (
 				B09A95792B60A2E400FFABFF /* CalGadsApp.swift */,
+				B046ABF52B8FCE100036D6B0 /* AppDelegate.swift */,
 				B0E495DE2B630E9400A08DC7 /* View */,
 				B0E495DD2B630E2800A08DC7 /* ViewModel */,
 				B0E495DC2B630E2200A08DC7 /* Model */,
 				B00EF35F2B6B10DC00A65155 /* UI Components */,
 				B00EF35E2B6B10CD00A65155 /* Style */,
+				B046AC092B9000150036D6B0 /* Firebase */,
+				B03A31D72B90E2C700A0F849 /* Service */,
+				B03A31F82B90E95500A0F849 /* New Group */,
 				B09A957D2B60A2E600FFABFF /* Assets.xcassets */,
 				B09A957F2B60A2E600FFABFF /* Preview Content */,
 			);
@@ -197,6 +262,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B09A959A2B60A2E700FFABFF /* Build configuration list for PBXNativeTarget "CalGads" */;
 			buildPhases = (
+				B046AC0C2B9000F80036D6B0 /* Firebase configuration */,
 				B09A95722B60A2E300FFABFF /* Sources */,
 				B09A95732B60A2E300FFABFF /* Frameworks */,
 				B09A95742B60A2E300FFABFF /* Resources */,
@@ -206,6 +272,10 @@
 			dependencies = (
 			);
 			name = CalGads;
+			packageProductDependencies = (
+				B046AC012B8FEFE00036D6B0 /* FirebaseAnalytics */,
+				B03DC6842B9666FA0028E671 /* FirebaseCrashlytics */,
+			);
 			productName = CalGads;
 			productReference = B09A95762B60A2E400FFABFF /* CalGads.app */;
 			productType = "com.apple.product-type.application";
@@ -278,6 +348,9 @@
 				Base,
 			);
 			mainGroup = B09A956D2B60A2E300FFABFF;
+			packageReferences = (
+				B046ABF22B8FCAC00036D6B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = B09A95772B60A2E400FFABFF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -315,16 +388,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B046AC0C2B9000F80036D6B0 /* Firebase configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Firebase configuration";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "INFO_PLIST=GoogleService-Info.plist\nDEVELOPMENT_INFO_PLIST=${PROJECT_DIR}/${TARGET_NAME}/Firebase/Debug/${INFO_PLIST}\nRELEASE_INFO_PLIST=${PROJECT_DIR}/${TARGET_NAME}/Firebase/Release/${INFO_PLIST}\n\necho \"Verifying ${INFO_PLIST} in ${DEVELOPMENT_INFO_PLIST}\"\nif [ ! -f $DEVELOPMENT_INFO_PLIST ] ; then\n    echo \"Development GoogleService-Info.plist not found.\"\n    exit 1\nfi\n\necho \"Verifying ${INFO_PLIST} in ${RELEASE_INFO_PLIST}\"\nif [ ! -f $RELEASE_INFO_PLIST ] ; then\n    echo \"Release GoogleService-Info.plist not found.\"\n    exit 1\nfi\n\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Copying ${INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\nif [ \"${CONFIGURATION}\" == \"Release\" ] ; then\n    echo \"Copied ${RELEASE_INFO_PLIST}.\"\n    cp \"${RELEASE_INFO_PLIST}\" \"${PLIST_DESTINATION}\"\nelse\n    echo \"Copied ${DEVELOPMENT_INFO_PLIST}.\"\n    cp \"${DEVELOPMENT_INFO_PLIST}\" \"${PLIST_DESTINATION}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B09A95722B60A2E300FFABFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B046ABF62B8FCE100036D6B0 /* AppDelegate.swift in Sources */,
 				B00EF3632B6B136900A65155 /* KeyView.swift in Sources */,
 				B09A957C2B60A2E400FFABFF /* ContentView.swift in Sources */,
 				B00EF35A2B6B00E200A65155 /* keysymbols.swift in Sources */,
 				B09A957A2B60A2E400FFABFF /* CalGadsApp.swift in Sources */,
+				B03A31FC2B90ED1500A0F849 /* CrashlyticsService.swift in Sources */,
 				B00EF35C2B6B012000A65155 /* keycomposition.swift in Sources */,
+				B03A31FA2B90E99900A0F849 /* AnalyticsService.swift in Sources */,
 				B00EF3582B6B00A600A65155 /* keyfunction.swift in Sources */,
 				B00EF3652B6B173C00A65155 /* KeyButtonStyle.swift in Sources */,
 			);
@@ -494,6 +592,7 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 93XRVQ86R7;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -521,11 +620,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CalGads/Preview Content\"";
-				DEVELOPMENT_TEAM = 93XRVQ86R7;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 93XRVQ86R7;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -540,6 +642,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gadielpaiz.CalGads;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "CalGads - Prod";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -662,6 +765,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B046ABF22B8FCAC00036D6B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B03DC6842B9666FA0028E671 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B046ABF22B8FCAC00036D6B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		B046AC012B8FEFE00036D6B0 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B046ABF22B8FCAC00036D6B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B09A956E2B60A2E300FFABFF /* Project object */;
 }

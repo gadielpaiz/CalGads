@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
         HStack {
-            
+            Text("Hello, world!")
         }
         .padding()
+        .onAppear {
+            AnalyticsService.currentScreenView("Principal")
+        }
     }
 }
 
