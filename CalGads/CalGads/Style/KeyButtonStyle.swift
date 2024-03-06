@@ -13,7 +13,7 @@ struct KeyButtonStyle: ButtonStyle {
     
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .frame(width: 50, height: 50)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(color.gradient)
             .clipShape(RoundedRectangle(cornerRadius: 5))
             .scaleEffect(configuration.isPressed ? 0.9 : 1.0)

@@ -5,11 +5,13 @@
 //  Created by Gadiel Paiz on 1/31/24.
 //
 
-import Foundation
 import SwiftUI
 
-struct KeyComposition {
+struct KeyCompositionModel {
     let functions: [KeyFunction]
     let symbols: [KeySymbols]
-    let colors: [Color]
+    let colorFunction: [Color]
+//    let styleFont: [Font.Weight]
+//    let colorButton: KeyButtonStyle
+//    let shape:
 }

@@ -23,10 +23,13 @@ enum KeySymbols {
     case multiply
     case divide
     case equal
+    case point
+    case plusSlashMinus
     case squareRoot
     case cubicRoot
-    case summation
+    case sum
     case product
+    case delete
     
     var symbols: String {
         switch self {
@@ -60,14 +63,20 @@ enum KeySymbols {
             return "\u{00f7}"
         case .equal:
             return "\u{003d}"
+        case .point:
+            return "\u{2027}"
+        case .plusSlashMinus:
+            return "\u{207A}\u{2044}\u{002d}"
         case .squareRoot:
             return "\u{221a}"
         case .cubicRoot:
             return "\u{221b}"
-        case .summation:
+        case .sum:
             return "\u{2211}"
         case .product:
             return "\u{220F}"
+        case .delete:
+            return "\u{2421}"
         }
     }
 }
