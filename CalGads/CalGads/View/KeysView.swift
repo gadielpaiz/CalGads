@@ -163,7 +163,7 @@ struct KeysView: View {
                 KeyComponent(key: keyEqual)
             }
         }
-        .ignoresSafeArea()e
+        .ignoresSafeArea()
     }
 }
 
