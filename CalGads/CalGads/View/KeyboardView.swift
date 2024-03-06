@@ -17,7 +17,7 @@ struct KeyboardView: View {
                     KeyboardComponent(
                         row: 1,
                         column: 1,
-                        component: KeyView()
+                        component: KeysView()
                     )
                     .padding(.horizontal, 1.8)
                 }

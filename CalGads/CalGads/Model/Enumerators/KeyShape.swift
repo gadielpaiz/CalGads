@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-//enum KeyShape {
-//    case whole
-//    case halfHorizontal
-//    case halfVertical
-//    case doubleHorizontal
-//    case doubleVertical
-//}
+enum KeyShape {
+    case whole
+    case halfHorizontal
+    case halfVertical
+    case doubleHorizontal
+    case doubleVertical
+}

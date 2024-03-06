@@ -131,8 +131,6 @@ struct KeysView: View {
                 KeyComponent(key: keyNone)
                 KeyComponent(key: keyDivide)
             }
-            .ignoresSafeArea()
-            
             HStack(spacing: 1) {
                 KeyComponent(key: keyNone)
                 KeyComponent(key: key7)
@@ -140,8 +138,6 @@ struct KeysView: View {
                 KeyComponent(key: key9)
                 KeyComponent(key: keyMultiply)
             }
-            .ignoresSafeArea()
-            
             
             HStack(spacing: 1) {
                 KeyComponent(key: keyNone)
@@ -150,8 +146,6 @@ struct KeysView: View {
                 KeyComponent(key: key6)
                 KeyComponent(key: keyMinus)
             }
-            .ignoresSafeArea()
-            
             
             HStack(spacing: 1) {
                 KeyComponent(key: keyNone)
@@ -160,8 +154,6 @@ struct KeysView: View {
                 KeyComponent(key: key3)
                 KeyComponent(key: keyPlus)
             }
-            .ignoresSafeArea()
-            
             
             HStack(spacing: 1) {
                 KeyComponent(key: keyNone)
@@ -170,9 +162,8 @@ struct KeysView: View {
                 KeyComponent(key: keyPoint)
                 KeyComponent(key: keyEqual)
             }
-            .ignoresSafeArea()
         }
-        .ignoresSafeArea()
+        .ignoresSafeArea()e
     }
 }
 
