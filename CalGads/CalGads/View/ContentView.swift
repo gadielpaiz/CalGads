@@ -10,12 +10,11 @@ import SwiftUI
 struct ContentView: View {
 
     var body: some View {
-        HStack {
-            Text("Hello, world!")
+        VStack {
+            KeyboardView()
         }
-        .padding()
         .onAppear {
-            AnalyticsService.currentScreenView("Principal")
+            AnalyticsService.currentScreenView("Principal Page")
         }
     }
 }
