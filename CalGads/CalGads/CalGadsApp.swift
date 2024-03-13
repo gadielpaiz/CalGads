@@ -5,6 +5,7 @@
 //  Created by Gadiel Paiz on 1/23/24.
 //
 
+import SwiftData
 import SwiftUI
 
 @main
@@ -15,5 +16,6 @@ struct CalGadsApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: ListGroupModel.self)
     }
 }
