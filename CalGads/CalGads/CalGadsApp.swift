@@ -16,6 +16,6 @@ struct CalGadsApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: ListGroupScreen.self)
+        .modelContainer(for: ListGroupModel.self)
     }
 }

@@ -10,10 +10,10 @@ import SwiftData
 
 struct GroupScreenView: View {
     @Environment(\.modelContext) private var context
-    @State private var path = [ListGroupScreen]()
+    @State private var path = [ListGroupModel]()
     
     func addCell() {
-        let cell = ListGroupScreen()
+        let cell = ListGroupModel()
         context.insert(cell)
         path = [cell]
     }

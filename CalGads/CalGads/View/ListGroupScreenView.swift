@@ -10,12 +10,12 @@ import SwiftUI
 
 struct ListGroupScreenView: View {
     @Environment(\.modelContext) private var context
-    @Query(sort: [ SortDescriptor(\ListGroupScreen.displayOperationBinary), SortDescriptor(\ListGroupScreen.number)
-                 ]) private var listGroupScreen: [ListGroupScreen]
+    @Query(sort: [ SortDescriptor(\ListGroupModel.displayOperationBinary), SortDescriptor(\ListGroupModel.number)
+                 ]) private var listGroupModel: [ListGroupModel]
     
     func deleteCell(_ indexSet: IndexSet) {
         for index in indexSet {
-            let cell = listGroupScreen[index]
+            let cell = listGroupModel[index]
             context.delete(cell)
         }
     }
@@ -23,9 +23,9 @@ struct ListGroupScreenView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 5) {
             List {
-                ForEach(listGroupScreen) { groupOfData in
+                ForEach(listGroupModel) { groupOfData in
                     NavigationLink(value: groupOfData) {
-                        GroupScreenComponent(displayText: groupOfData.displayOperationBinary, displayResultText: groupOfData.number)
+                        GroupComponent(displayText: groupOfData.displayOperationBinary, displayResultText: groupOfData.number)
                     }
                 }
                 .onDelete(perform: deleteCell)

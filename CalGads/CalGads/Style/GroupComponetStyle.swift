@@ -7,12 +7,11 @@
 
 import SwiftUI
 
-struct GroupBoxScreenStyle: GroupBoxStyle {
+struct GroupComponentStyle: GroupBoxStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
         configuration.content
             .padding(16)
-            .frame(width: 350, height: 150)
             .background(.black.gradient.opacity(0.8), in: RoundedRectangle(cornerRadius: 8))
             .font(.headline)
             .foregroundStyle(.white)

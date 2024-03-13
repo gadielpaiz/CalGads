@@ -9,11 +9,11 @@ import Foundation
 import SwiftData
 
 @Model
-class ListGroupScreen {
+class ListGroupModel {
     var displayOperationBinary: String
     var number: String
     
-    init(displayOperationBinary: String = "Hello", number: String = "World") {
+    init(displayOperationBinary: String = "", number: String = "") {
         self.displayOperationBinary = displayOperationBinary
         self.number = number
     }

@@ -12,10 +12,7 @@ struct VisualCalculateView: View {
         VStack {
             GeometryReader { geometry in
                 VStack {
-                    
-                    VStack {
-                        GroupScreenView()
-                    }
+                    GroupScreenView()
                 }
                 .frame(width: geometry.size.width, height: geometry.size.width * 1.33)
             }
