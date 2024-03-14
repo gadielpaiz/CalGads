@@ -34,6 +34,7 @@
 		B0BC5DF62B98D82000B74D2A /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC5DF52B98D82000B74D2A /* KeyboardView.swift */; };
 		B0BC5DF82B98DA6E00B74D2A /* KeysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC5DF72B98DA6E00B74D2A /* KeysView.swift */; };
 		B0E443B82B9D5308000EAA54 /* VisualCalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E443B72B9D5308000EAA54 /* VisualCalculateView.swift */; };
+		B0E580EC2BA3A51D00D57A1A /* KeyShapeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E580EB2BA3A51D00D57A1A /* KeyShapeComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		B0BC5DF52B98D82000B74D2A /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		B0BC5DF72B98DA6E00B74D2A /* KeysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysView.swift; sourceTree = "<group>"; };
 		B0E443B72B9D5308000EAA54 /* VisualCalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualCalculateView.swift; sourceTree = "<group>"; };
+		B0E580EB2BA3A51D00D57A1A /* KeyShapeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyShapeComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,9 +138,10 @@
 		B00EF35F2B6B10DC00A65155 /* UI Components */ = {
 			isa = PBXGroup;
 			children = (
-				B00EF3622B6B136900A65155 /* KeyComponent.swift */,
-				B0BC5DF32B98D3CE00B74D2A /* KeyboardComponent.swift */,
 				B0A9213D2B9B971000A76C20 /* GroupComponent.swift */,
+				B00EF3622B6B136900A65155 /* KeyComponent.swift */,
+				B0E580EB2BA3A51D00D57A1A /* KeyShapeComponent.swift */,
+				B0BC5DF32B98D3CE00B74D2A /* KeyboardComponent.swift */,
 			);
 			path = "UI Components";
 			sourceTree = "<group>";
@@ -278,11 +281,11 @@
 			isa = PBXGroup;
 			children = (
 				B09A957B2B60A2E400FFABFF /* ContentView.swift */,
-				B0E443B72B9D5308000EAA54 /* VisualCalculateView.swift */,
-				B0BC5DF52B98D82000B74D2A /* KeyboardView.swift */,
-				B0BC5DF72B98DA6E00B74D2A /* KeysView.swift */,
 				B00D501D2B9C269900B5FC56 /* GroupScreenView.swift */,
 				B0A488762B9D405300189A26 /* ListGroupScreenView.swift */,
+				B0BC5DF52B98D82000B74D2A /* KeyboardView.swift */,
+				B0BC5DF72B98DA6E00B74D2A /* KeysView.swift */,
+				B0E443B72B9D5308000EAA54 /* VisualCalculateView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -464,6 +467,7 @@
 				B0BC5DF82B98DA6E00B74D2A /* KeysView.swift in Sources */,
 				B0BADD232B9817C9006FE6E8 /* KeyShape.swift in Sources */,
 				B00EF3582B6B00A600A65155 /* KeyFunction.swift in Sources */,
+				B0E580EC2BA3A51D00D57A1A /* KeyShapeComponent.swift in Sources */,
 				B0E443B82B9D5308000EAA54 /* VisualCalculateView.swift in Sources */,
 				B0A9213C2B9B7A6000A76C20 /* GroupComponetStyle.swift in Sources */,
 				B00EF3652B6B173C00A65155 /* KeyButtonStyle.swift in Sources */,

@@ -11,7 +11,7 @@ struct KeyCompositionModel {
     let functions: [KeyFunction]
     let symbols: [KeySymbols]
     let colorFunction: [Color]
-//    let styleFont: [Font.Weight]
-//    let colorButton: KeyButtonStyle
-//    let shape:
+    let styleFont: [Font.Weight]
+    let colorButton: KeyButtonStyle
+    let shape: KeyShape
 }

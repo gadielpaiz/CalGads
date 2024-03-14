@@ -13,4 +13,5 @@ enum KeyShape {
     case halfVertical
     case doubleHorizontal
     case doubleVertical
+    case none
 }
