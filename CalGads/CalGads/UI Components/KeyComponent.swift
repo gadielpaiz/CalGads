@@ -32,17 +32,17 @@ struct KeyComponent: View {
                                 .foregroundStyle(key.colorFunction[KeyFunction.quaternary.rawValue])
                         }
                     }
-                    .font(.system(size: 10, weight: .semibold))
+                    .font(.system(size: 13, weight: key.styleFont.last))
                     .padding(.top, 2)
                     
                     if key.symbols.count > 0 && key.colorFunction.count > 0 {
                         Text(key.symbols[KeyFunction.primary.rawValue].symbols)
-                            .font(.system(size: 30, weight: .medium, design: .rounded))
+                            .font(.system(size: 30, weight: key.styleFont.first, design: .rounded))
                             .foregroundStyle(key.colorFunction[KeyFunction.primary.rawValue])
                     }
                 }
             }
-            .buttonStyle(KeyButtonStyle(color: .orange))
+            .buttonStyle(key.colorButton)
         }
     }
 }
@@ -51,8 +51,9 @@ struct KeyComponent: View {
     KeyComponent(key: KeyCompositionModel(
         functions: [.primary, .secondary, .tertiary, .quaternary],
         symbols: [.nine, .squareRoot, .cubicRoot, .sum],
-        colorFunction: [.white, .red, .green, .blue]//,
-//        styleFont: [.medium, .semibold],
-//        colorButton: KeyButtonStyle(color: .orange)
+        colorFunction: [.white, .red, .green, .blue],
+        styleFont: [.medium, .semibold],
+        colorButton: KeyButtonStyle(color: .orange),
+        shape: KeyShape.none
     ))
 }

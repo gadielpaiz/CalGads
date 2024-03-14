@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00D501E2B9C269900B5FC56 /* GroupScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D501D2B9C269900B5FC56 /* GroupScreenView.swift */; };
 		B00EF3582B6B00A600A65155 /* KeyFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF3572B6B00A600A65155 /* KeyFunction.swift */; };
 		B00EF35A2B6B00E200A65155 /* KeySymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF3592B6B00E200A65155 /* KeySymbols.swift */; };
 		B00EF35C2B6B012000A65155 /* KeyCompositionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EF35B2B6B012000A65155 /* KeyCompositionModel.swift */; };
@@ -15,6 +16,8 @@
 		B03A31FA2B90E99900A0F849 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A31F92B90E99900A0F849 /* AnalyticsService.swift */; };
 		B03A31FC2B90ED1500A0F849 /* CrashlyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A31FB2B90ED1500A0F849 /* CrashlyticsService.swift */; };
 		B046ABF62B8FCE100036D6B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046ABF52B8FCE100036D6B0 /* AppDelegate.swift */; };
+		B052B6492BA24BF500FB69B4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B052B6482BA24BF500FB69B4 /* FirebaseAnalytics */; };
+		B052B64B2BA24BFC00FB69B4 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = B052B64A2BA24BFC00FB69B4 /* FirebaseCrashlytics */; };
 		B09A957A2B60A2E400FFABFF /* CalGadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09A95792B60A2E400FFABFF /* CalGadsApp.swift */; };
 		B09A957C2B60A2E400FFABFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09A957B2B60A2E400FFABFF /* ContentView.swift */; };
 		B09A957E2B60A2E600FFABFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09A957D2B60A2E600FFABFF /* Assets.xcassets */; };
@@ -22,12 +25,16 @@
 		B09A958B2B60A2E600FFABFF /* CalGadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09A958A2B60A2E600FFABFF /* CalGadsTests.swift */; };
 		B09A95952B60A2E700FFABFF /* CalGadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09A95942B60A2E700FFABFF /* CalGadsUITests.swift */; };
 		B09A95972B60A2E700FFABFF /* CalGadsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09A95962B60A2E700FFABFF /* CalGadsUITestsLaunchTests.swift */; };
-		B0BADD1F2B981685006FE6E8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B0BADD1E2B981685006FE6E8 /* FirebaseAnalytics */; };
-		B0BADD212B9816EB006FE6E8 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = B0BADD202B9816EB006FE6E8 /* FirebaseCrashlytics */; };
+		B0A488772B9D405400189A26 /* ListGroupScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A488762B9D405300189A26 /* ListGroupScreenView.swift */; };
+		B0A488792B9D40AA00189A26 /* ListGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A488782B9D40AA00189A26 /* ListGroupModel.swift */; };
+		B0A9213C2B9B7A6000A76C20 /* GroupComponetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9213B2B9B7A5F00A76C20 /* GroupComponetStyle.swift */; };
+		B0A9213E2B9B971000A76C20 /* GroupComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9213D2B9B971000A76C20 /* GroupComponent.swift */; };
 		B0BADD232B9817C9006FE6E8 /* KeyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BADD222B9817C9006FE6E8 /* KeyShape.swift */; };
 		B0BC5DF42B98D3CE00B74D2A /* KeyboardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC5DF32B98D3CE00B74D2A /* KeyboardComponent.swift */; };
 		B0BC5DF62B98D82000B74D2A /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC5DF52B98D82000B74D2A /* KeyboardView.swift */; };
 		B0BC5DF82B98DA6E00B74D2A /* KeysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC5DF72B98DA6E00B74D2A /* KeysView.swift */; };
+		B0E443B82B9D5308000EAA54 /* VisualCalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E443B72B9D5308000EAA54 /* VisualCalculateView.swift */; };
+		B0E580EC2BA3A51D00D57A1A /* KeyShapeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E580EB2BA3A51D00D57A1A /* KeyShapeComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B00D501D2B9C269900B5FC56 /* GroupScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupScreenView.swift; sourceTree = "<group>"; };
 		B00EF3572B6B00A600A65155 /* KeyFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFunction.swift; sourceTree = "<group>"; };
 		B00EF3592B6B00E200A65155 /* KeySymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySymbols.swift; sourceTree = "<group>"; };
 		B00EF35B2B6B012000A65155 /* KeyCompositionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCompositionModel.swift; sourceTree = "<group>"; };
@@ -56,6 +64,7 @@
 		B03A31F92B90E99900A0F849 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
 		B03A31FB2B90ED1500A0F849 /* CrashlyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashlyticsService.swift; sourceTree = "<group>"; };
 		B046ABF52B8FCE100036D6B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B052B6472BA24BE700FB69B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B09A95762B60A2E400FFABFF /* CalGads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalGads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09A95792B60A2E400FFABFF /* CalGadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalGadsApp.swift; sourceTree = "<group>"; };
 		B09A957B2B60A2E400FFABFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,12 +75,18 @@
 		B09A95902B60A2E700FFABFF /* CalGadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalGadsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09A95942B60A2E700FFABFF /* CalGadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalGadsUITests.swift; sourceTree = "<group>"; };
 		B09A95962B60A2E700FFABFF /* CalGadsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalGadsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0A488762B9D405300189A26 /* ListGroupScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGroupScreenView.swift; sourceTree = "<group>"; };
+		B0A488782B9D40AA00189A26 /* ListGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGroupModel.swift; sourceTree = "<group>"; };
+		B0A9213B2B9B7A5F00A76C20 /* GroupComponetStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupComponetStyle.swift; sourceTree = "<group>"; };
+		B0A9213D2B9B971000A76C20 /* GroupComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupComponent.swift; sourceTree = "<group>"; };
 		B0BADD1B2B981302006FE6E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B0BADD1C2B981312006FE6E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B0BADD222B9817C9006FE6E8 /* KeyShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyShape.swift; sourceTree = "<group>"; };
 		B0BC5DF32B98D3CE00B74D2A /* KeyboardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardComponent.swift; sourceTree = "<group>"; };
 		B0BC5DF52B98D82000B74D2A /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		B0BC5DF72B98DA6E00B74D2A /* KeysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysView.swift; sourceTree = "<group>"; };
+		B0E443B72B9D5308000EAA54 /* VisualCalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualCalculateView.swift; sourceTree = "<group>"; };
+		B0E580EB2BA3A51D00D57A1A /* KeyShapeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyShapeComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0BADD1F2B981685006FE6E8 /* FirebaseAnalytics in Frameworks */,
-				B0BADD212B9816EB006FE6E8 /* FirebaseCrashlytics in Frameworks */,
+				B052B6492BA24BF500FB69B4 /* FirebaseAnalytics in Frameworks */,
+				B052B64B2BA24BFC00FB69B4 /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				B00EF3642B6B173C00A65155 /* KeyButtonStyle.swift */,
+				B0A9213B2B9B7A5F00A76C20 /* GroupComponetStyle.swift */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -122,7 +138,9 @@
 		B00EF35F2B6B10DC00A65155 /* UI Components */ = {
 			isa = PBXGroup;
 			children = (
+				B0A9213D2B9B971000A76C20 /* GroupComponent.swift */,
 				B00EF3622B6B136900A65155 /* KeyComponent.swift */,
+				B0E580EB2BA3A51D00D57A1A /* KeyShapeComponent.swift */,
 				B0BC5DF32B98D3CE00B74D2A /* KeyboardComponent.swift */,
 			);
 			path = "UI Components";
@@ -200,6 +218,7 @@
 		B09A95782B60A2E400FFABFF /* CalGads */ = {
 			isa = PBXGroup;
 			children = (
+				B052B6472BA24BE700FB69B4 /* Info.plist */,
 				B09A95792B60A2E400FFABFF /* CalGadsApp.swift */,
 				B046ABF52B8FCE100036D6B0 /* AppDelegate.swift */,
 				B0E495DE2B630E9400A08DC7 /* View */,
@@ -246,6 +265,7 @@
 			children = (
 				B00EF35D2B6B105B00A65155 /* Enumerators */,
 				B00EF35B2B6B012000A65155 /* KeyCompositionModel.swift */,
+				B0A488782B9D40AA00189A26 /* ListGroupModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -261,8 +281,11 @@
 			isa = PBXGroup;
 			children = (
 				B09A957B2B60A2E400FFABFF /* ContentView.swift */,
+				B00D501D2B9C269900B5FC56 /* GroupScreenView.swift */,
+				B0A488762B9D405300189A26 /* ListGroupScreenView.swift */,
 				B0BC5DF52B98D82000B74D2A /* KeyboardView.swift */,
 				B0BC5DF72B98DA6E00B74D2A /* KeysView.swift */,
+				B0E443B72B9D5308000EAA54 /* VisualCalculateView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -285,8 +308,8 @@
 			);
 			name = CalGads;
 			packageProductDependencies = (
-				B0BADD1E2B981685006FE6E8 /* FirebaseAnalytics */,
-				B0BADD202B9816EB006FE6E8 /* FirebaseCrashlytics */,
+				B052B6482BA24BF500FB69B4 /* FirebaseAnalytics */,
+				B052B64A2BA24BFC00FB69B4 /* FirebaseCrashlytics */,
 			);
 			productName = CalGads;
 			productReference = B09A95762B60A2E400FFABFF /* CalGads.app */;
@@ -431,15 +454,22 @@
 				B0BC5DF62B98D82000B74D2A /* KeyboardView.swift in Sources */,
 				B00EF3632B6B136900A65155 /* KeyComponent.swift in Sources */,
 				B0BC5DF42B98D3CE00B74D2A /* KeyboardComponent.swift in Sources */,
+				B00D501E2B9C269900B5FC56 /* GroupScreenView.swift in Sources */,
 				B09A957C2B60A2E400FFABFF /* ContentView.swift in Sources */,
+				B0A9213E2B9B971000A76C20 /* GroupComponent.swift in Sources */,
 				B00EF35A2B6B00E200A65155 /* KeySymbols.swift in Sources */,
 				B09A957A2B60A2E400FFABFF /* CalGadsApp.swift in Sources */,
 				B03A31FC2B90ED1500A0F849 /* CrashlyticsService.swift in Sources */,
+				B0A488772B9D405400189A26 /* ListGroupScreenView.swift in Sources */,
+				B0A488792B9D40AA00189A26 /* ListGroupModel.swift in Sources */,
 				B00EF35C2B6B012000A65155 /* KeyCompositionModel.swift in Sources */,
 				B03A31FA2B90E99900A0F849 /* AnalyticsService.swift in Sources */,
 				B0BC5DF82B98DA6E00B74D2A /* KeysView.swift in Sources */,
 				B0BADD232B9817C9006FE6E8 /* KeyShape.swift in Sources */,
 				B00EF3582B6B00A600A65155 /* KeyFunction.swift in Sources */,
+				B0E580EC2BA3A51D00D57A1A /* KeyShapeComponent.swift in Sources */,
+				B0E443B82B9D5308000EAA54 /* VisualCalculateView.swift in Sources */,
+				B0A9213C2B9B7A6000A76C20 /* GroupComponetStyle.swift in Sources */,
 				B00EF3652B6B173C00A65155 /* KeyButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -610,11 +640,11 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalGads/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -645,11 +675,11 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalGads/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -794,12 +824,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B0BADD1E2B981685006FE6E8 /* FirebaseAnalytics */ = {
+		B052B6482BA24BF500FB69B4 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B046ABF22B8FCAC00036D6B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalytics;
 		};
-		B0BADD202B9816EB006FE6E8 /* FirebaseCrashlytics */ = {
+		B052B64A2BA24BFC00FB69B4 /* FirebaseCrashlytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B046ABF22B8FCAC00036D6B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseCrashlytics;
